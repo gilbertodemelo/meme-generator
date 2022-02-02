@@ -14,7 +14,7 @@ class MemeGenerator:
         if not os.path.exists(self.write_path):
             os.makedirs(self.write_path)
 
-    def create_meme(self, image, text, author, width=500) -> str:
+    def make_meme(self, image, text, author, width=500) -> str:
         """Create a meme."""
         infile_img = Image.open(image)
         img_width = min(width, 500)
