@@ -12,7 +12,7 @@ class Quote:
     """
 
     def __init__(self, text, author):
-        """Constructor."""
+        """Construct the class."""
         self.text = text
         self.author = author
 
